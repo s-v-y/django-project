@@ -74,10 +74,10 @@ WSGI_APPLICATION = 'my_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-DATABASES = {
-    'default': dict(ENGINE='django.db.backends.mysql', NAME='django', USER='root', PASSWORD='password',
-                    HOST='localhost')
-}
+#DATABASES = {
+#   'default': dict(ENGINE='django.db.backends.mysql', NAME='django', USER='root', PASSWORD='password',
+#               HOST='localhost')
+#}
 
 
 # Internationalization
