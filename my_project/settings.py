@@ -75,8 +75,8 @@ WSGI_APPLICATION = 'my_project.wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 #DATABASES = {
-#   'default': dict(ENGINE='django.db.backends.mysql', NAME='django', USER='root', PASSWORD='password',
-#               HOST='localhost')
+#   'default': dict(ENGINE='django.db.backends.mysql', NAME='gubkin$default', USER='root', PASSWORD='mypassword',
+#               HOST='gubkin.mysql.pythonanywhere-services.com')
 #}
 
 
@@ -98,3 +98,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = "./static/"
